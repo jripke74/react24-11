@@ -30,7 +30,7 @@ export default function UserInput({ onChange, userInput }) {
             type="number"
             required
             value={userInput.expextedReturn}
-            onChange={(event) => onChange('expextedReturn', event.target.value)}
+            onChange={(event) => onChange('expectedReturn', event.target.value)}
           />
         </p>
         <p>
